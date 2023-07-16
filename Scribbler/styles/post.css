@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+h1#post-title {
+  margin-top: 50px;
+}
+
+p#post-author {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+div.edit-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: -35px;
+}
+
+button#edit-button {
+  background-color: deeppink;
+  color: white;
+}
+
+p#post-text {
+  margin-top: 20px;
+}
+
+button#like-button {
+  margin-top: 20px;
+  background-color: deeppink;
+  color: white;
+  margin-left: 0%;
+  margin-right: 90%;
+}
+
+p#like-message {
+  margin-top: 10px;
+  margin-left: 0%;
+  margin-right: 83%;
+}
+
+input#comment-input {
+  margin-top: 20px;
+  width: 75%;
+  height: 75px;
+  padding: 5px;
+  margin-left: 0%;
+  margin-right: 20.5%;
+}
+
+button#comment-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: white;
+  background-color: deeppink;
+  margin-left: 0%;
+  margin-right: 90%;
+}
+
+div#all-comments {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 75%;
+  text-align: left;
+}
+
+.comment {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}

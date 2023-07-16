@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -60px;
+  }
+  
+  .all-posts-btn,
+  .create-post-btn {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid;
+    border-color: #fff;
+    cursor: pointer;
+    margin: 10px;
+  }

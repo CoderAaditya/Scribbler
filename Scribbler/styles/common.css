@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white; 
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h1 {
+  font-family: 'Montez', cursive;
+  font-size: 30px;
+  margin: 0;
+  color: blue;
+}
+
+.subheading {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  margin: 0;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.signin-btn,
+.signup-btn {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

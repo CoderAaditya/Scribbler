@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles/common.css">
+    <link rel="stylesheet" type="text/css" href="../styles/post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ScriBBler</h1>
+            <h2 class="subheading">Explore, Imagine, Create</h2>
+        </div>
+        <div class="buttons">
+            <button class="signin-btn">Sign In</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </header>
+    <h1 id="post-title">Post Title</h1>
+    <p id="post-author">Author Name</p>
+    <div class="edit-container">
+      <button id="edit-button"><i class="fas fa-edit"></i> Edit</button>
+    </div>    
+    <p id="post-text">Post Text</p>
+    <button id="like-button"><i class="fas fa-thumbs-up"></i> Like</button>
+    <p id="like-message">Be the first one to like this!</p>
+    <input id="comment-input" type="text" placeholder="Leave a comment...">
+    <button id="comment-button" class="red-button">Comment</button>
+    <div id="all-comments">
+        <!-- Comments will be added here -->
+    </div>
+
+    <script src="../scripts/post.js"></script>
+</body>
+</html>

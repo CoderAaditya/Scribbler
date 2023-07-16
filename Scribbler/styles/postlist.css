@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    background-color: wheat;
+}
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.post-card {
+    flex: 0 0 calc(50% - 20px);
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px; 
+}
+
+.post-card p {
+    margin: 0;
+    background-color: white;
+}
+.post-card .post-author p b{
+    background-color: white;
+}
+
+.post-card div {
+    background-color: white;
+}
+
+.post-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.post-card .post-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.post-card .post-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.post-card .post-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.post-card .post-actions span {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    max-width: 400px;
+}
+
+.modal-content p {
+    margin-top: 0;
+    background-color: white;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#modal-yes {
+    background-color: green;
+    color: white;
+}
+
+#modal-no {
+    background-color: red;
+    color: white;
+}
+
+.post-card {
+    position: relative;
+}
+
+.post-card .delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.black-icon {
+    color: black;
+}
+
+.post-card .delete-icon i {
+    color: black;
+    background-color: #fff;
+}
+
+.post-card .ellipsis-link i {
+    color: black;
+    background-color: #fff;
+}
